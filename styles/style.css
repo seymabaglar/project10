@@ -26,6 +26,19 @@ html {
   scroll-behavior: smooth;
 }
 
+html ::-webkit-scrollbar{
+    width: 0.8rem;
+    background-color: white;
+}
+
+html ::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+html ::-webkit-scrollbar-thumb{
+    border-radius: 3rem;
+    background-color: black;
+}
 body {
   background-color: var(--main-color);
 }
@@ -171,3 +184,6 @@ section {
 }
 
 /* <!-- /* ! MENU SECTION END !/ --> */
+/* <!-- /* ! PRODUCTS SECTION START !/ --> */
+
+/* <!-- /* ! PRODUCTS SECTION END !/ --> */
