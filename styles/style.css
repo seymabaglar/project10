@@ -207,7 +207,24 @@ a {
   gap: 1.5rem;
 }
 
-.products .box-container{
+.products .box-container .box{
   text-align: center;
-  background-color: #fff;
+  background-color: rgba(245, 245, 245, 0.797);
+  position: relative;
+  border-radius: 3rem;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem ;
 }
+.products .box-container .box .box-head{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  z-index: 10;
+}
+
+
+/*? PRODUCTS SECTION END*/
