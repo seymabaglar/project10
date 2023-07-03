@@ -283,4 +283,28 @@ a {
 .products .box-container .dark-bg .box-bottom .info .amount{
   color: white;
 }
+
+.products .box-container .box-bottom .product-btn a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 6.5rem;
+  height: 6.5rem;
+  border: 0.2rem solid var(--main-color);
+}
+.products .box-container .box-bottom .product-btn a i{
+  font-size: 1.6rem;
+  color: var(--main-color);
+}
 /*? PRODUCTS SECTION END*/
+
+/* ABOUT SECTION START */
+
+.about .row .image{
+  flex: 1 1 45rem;
+}
+.about .row img{
+ width: 100%;
+}
+/* ABOUT SECTION END */
