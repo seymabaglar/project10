@@ -239,11 +239,11 @@ a {
 }
 
 .products .box-container .dark-bg .box-head .name,
-.products .box-container .dark-bg .box-head .title{
+.products .box-container .dark-bg .box-head .title {
   color: white;
 }
 
-.products .box-container img{
+.products .box-container img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -253,38 +253,38 @@ a {
   border-radius: 3rem;
 }
 
-.products .box-container .dark-bg img{
+.products .box-container .dark-bg img {
   width: 100%;
   height: 100%;
 }
 
-.products .box-container .box-bottom{
+.products .box-container .box-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
   z-index: 10;
 }
-.products .box-container .box-bottom .info{
+.products .box-container .box-bottom .info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.products .box-container .box-bottom .info .price{
+.products .box-container .box-bottom .info .price {
   font-size: 3rem;
 }
 
-.products .box-container .box-bottom .info .amount{
+.products .box-container .box-bottom .info .amount {
   font-size: 1.4rem;
 }
 
 .products .box-container .dark-bg .box-bottom .info .price,
-.products .box-container .dark-bg .box-bottom .info .amount{
+.products .box-container .dark-bg .box-bottom .info .amount {
   color: white;
 }
 
-.products .box-container .box-bottom .product-btn a{
+.products .box-container .box-bottom .product-btn a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -293,37 +293,37 @@ a {
   height: 6.5rem;
   border: 0.2rem solid var(--main-color);
 }
-.products .box-container .box-bottom .product-btn a i{
+.products .box-container .box-bottom .product-btn a i {
   font-size: 1.6rem;
   color: var(--main-color);
 }
 /*? PRODUCTS SECTION END*/
 
 /* ABOUT SECTION START */
-.about .row{
+.about .row {
   display: flex;
   flex-wrap: wrap;
   column-gap: 2rem;
 }
 
-.about .row .image{
+.about .row .image {
   flex: 1 1 45rem;
 }
 
-.about .row img{
- width: 100%;
+.about .row img {
+  width: 100%;
 }
 
-.about .row .content{
+.about .row .content {
   flex: 1 1 45rem;
 }
 
-.about .row .content h3{
+.about .row .content h3 {
   font-size: 3rem;
   color: white;
 }
 
-.about .row .content p{
+.about .row .content p {
   font-size: 1.6rem;
   color: #ccc;
   padding: 1rem 0;
@@ -332,39 +332,87 @@ a {
 /* ABOUT SECTION END */
 
 /* REVIEW SECTION START */
-.review .box-container{
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-gap: 1.5rem;
+.review .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
 }
 
-.review .box-container .box{
+.review .box-container .box {
   border: var(--border);
   text-align: center;
   padding: 3rem 2rem;
   background-color: rgba(245, 245, 245, 0.797);
   border-radius: 3rem;
 }
-.review .box-container .box p{
+.review .box-container .box p {
   font-size: 1.5rem;
   line-height: 1.8;
   padding: 2rem 0;
 }
-.review .box-container .box .user{
+.review .box-container .box .user {
   height: 7rem;
   width: 7rem;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.review .box-container .box h3{
+.review .box-container .box h3 {
   color: var(--main-color);
   padding: 1rem 0;
   font-size: 2rem;
 }
-.review .box-container .box .stars i{
+
+.review .box-container .box .stars i {
   font-size: 1.5rem;
   color: rgb(200, 172, 10);
 }
 
 /* REVIEW SECTION END */
+
+/* CONTACT SECTION START */
+.contact .row {
+  display: flex;
+  background-color: var(--black-color);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact .row form {
+  flex: 1 1 45rem;
+padding: 5rem 2rem;
+text-align: center;
+}
+.contact .row form h3{
+  font-size: 3.5rem;
+  color: white;
+}
+
+.contact .row form .inputBox{
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  border: var(--border);
+}
+
+.contact .row form .inputBox i{
+  color: white;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  color: white;
+  text-transform: none;
+  background-color: none;
+}
+/* CONTACT SECTION END */
