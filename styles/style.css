@@ -52,7 +52,9 @@ a {
   color: var(--black-color);
   text-decoration: none;
 }
-
+.title{
+  text-transform: uppercase;
+}
 .btn {
   margin-top: 1rem;
   display: inline-block;
@@ -61,6 +63,7 @@ a {
   font-size: 1.7rem;
   color: floralwhite;
   background-color: var(--black-color);
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -81,7 +84,6 @@ a {
 }
 
 /* ! HEADER SECTION START  */
-
 .logo img {
   height: 10rem;
 }
@@ -122,7 +124,6 @@ a {
 /* ! HEADER SECTION END  */
 
 /* ! HOME START */
-
 .home {
   min-height: 100vh;
   background: url(/img/home.jpg);
@@ -150,11 +151,9 @@ a {
   padding: 1rem 0;
   color: #ccc;
 }
-
 /* ! HOME END */
 
 /* ! MENU SECTION START */
-
 .menu .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -197,7 +196,6 @@ a {
   text-decoration: line-through;
   font-weight: 300;
 }
-
 /* ! MENU SECTION END */
 
 /*? PRODUCTS SECTION START */
@@ -367,7 +365,6 @@ a {
   font-size: 1.5rem;
   color: rgb(200, 172, 10);
 }
-
 /* REVIEW SECTION END */
 
 /* CONTACT SECTION START */
@@ -386,33 +383,39 @@ a {
 
 .contact .row form {
   flex: 1 1 45rem;
-padding: 5rem 2rem;
-text-align: center;
+  padding: 5rem 2rem;
+  text-align: center;
 }
-.contact .row form h3{
+.contact .row form h3 {
   font-size: 3.5rem;
   color: white;
 }
 
-.contact .row form .inputBox{
+.contact .row form .inputBox {
   display: flex;
   align-items: center;
   margin: 2rem 0;
   border: var(--border);
 }
 
-.contact .row form .inputBox i{
+.contact .row form .inputBox i {
   color: white;
   font-size: 2rem;
   padding-left: 2rem;
 }
 
-.contact .row form .inputBox input{
+.contact .row form .inputBox input {
   width: 100%;
   padding: 2rem;
   font-size: 1.7rem;
   color: white;
   text-transform: none;
-  background-color: none;
+  background: none;
+}
+
+.contact .row form .btn {
+  color: var(--main-color);
+  background-color: white;
+  font-weight: bold;
 }
 /* CONTACT SECTION END */
