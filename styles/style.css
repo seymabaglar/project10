@@ -126,6 +126,10 @@ a {
   margin-left: 2rem;
   background-color: transparent;
 }
+
+#menu-btn{
+  display: none;
+}
 /* ! HEADER SECTION END  */
 
 /* ! HOME START */
@@ -549,5 +553,17 @@ a {
 /* FOOTER SECTION END */
 
 /* RESPONSIVE START */
+@media(max-width:991px){
+  html{
+    font-size: 55%;
+  }
 
+  .header{
+    padding: 1.5rem 2rem;
+  }
+
+  .header .logo img{
+    height: 7rem;
+  }
+}
 /* RESPONSIVE END */
